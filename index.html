@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work To-Dos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>WORK TO-DOS</h1>
+        <p style="color: rgb(177, 241, 15);">Enter text into the input field to add items to your list.</p><br>
+        <p style="color: rgb(15, 236, 15);"><span>Click the item to mark it as complete.</span></p><br>
+        <p style="margin-bottom: 50x;">Click the "X" to remove the item from your list.</p><br>
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="New item..." required>
+            <button type="submit"><i class="fas fa-pencil-alt"></i></button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
